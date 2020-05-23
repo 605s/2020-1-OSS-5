@@ -1,11 +1,11 @@
 # 2020-1-OSS-5
 Homepage : https://20-1-skku-oss.github.io/2020-1-OSS-5/
 ## 1. 팀원 소개
-- 김희성 (팀장)
-- 신성국
-- 안정복
-- 이하은
-- 유광호 
+- 김희성 heesunkim010 (팀장)
+- 신성국 davidshyn1
+- 안정복 jb0307
+- 이하은 HACore
+- 유광호 605s
 
 ## 2. 프로젝트 소개
 ### word_cloud (https://github.com/amueller/word_cloud)
