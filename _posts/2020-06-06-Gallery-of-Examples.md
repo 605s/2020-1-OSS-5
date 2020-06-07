@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[한글 문서화] Gallery of Examples"
-author: "OSS-5"
+tags: [Documentation]
 ---
 
 
