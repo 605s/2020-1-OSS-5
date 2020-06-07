@@ -1,15 +1,11 @@
 ---
 layout: post
 title: "word_cloud"
-author: "OSS-5"
 ---
-
-<br>
 
 >A little word cloud generator in Python. Read more about it on the [blog post][blog_post] or the [website][website].<br>
 >The code is tested against Python 2.7, 3.4, 3.5, 3.6 and 3.7. [_(word_cloud README.md)_][README.md]<br>
 <hr>
-<br>
 
 ## 1. 팀프로젝트 소개
 ![example][example]<br>
