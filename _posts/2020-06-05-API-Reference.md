@@ -209,5 +209,25 @@ RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 
 `init(self, image, default_color=None)`
 
 자기를 초기화합니다. 정확한 특징은 help(type(self))를 참조하십시오.
+<hr>
+
+### wordcloud.random_color_func
+
+
+```
+random_color_func(word=None, font_size=None, position=None, orientation=None, font_path=None, random_state=None)
+```
+임의의 색조 색상 생성.
+
+기본 채색 방법. 값이 80 %이고 lumination이 50 % 인 임의의 색조를 선택합니다.
+
+`Parameters` 
+
+`word, font_size, position, orientation : ignored.`
+
+`random_staterandom.Random object or None, (default=None)`
+
+임의의 개체가 제공되면 임의의 숫자를 생성하는 데 사용됩니다.
+
 
 [API]: http://amueller.github.io/word_cloud/references.html
