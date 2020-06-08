@@ -3,6 +3,8 @@ layout: post
 title: "한글 기능 구현"
 tags: [Documentation]
 ---
+> 한글 기능 구현에 대한 설명 내용을 포함한 문서입니다.
+<hr>
 
 Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등장 횟수에 따라 글자 크기를 조정하여 word cloud를 생성하도록 하는 프로젝트이기에,
 각 언어의 특성과 문장 형태에 따라 word cloud가 제대로 수행되지 않을 확률이 높다.
