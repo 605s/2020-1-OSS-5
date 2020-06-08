@@ -13,10 +13,14 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 다음 그림에서 한글 글꼴로 한글 text를 실행할 시 생기는 문제점을 발견할 수 있다.<br>
 ![example2][example2]
 
+위의 예시는 황순원의 소설 소나기의 내용을 wordcloud로 구현한 그림이다.<br>
+위의 그림에서 눈에 띄는 것은 '소녀', '소년'이라는 단어가 많이 들어가 있는데 '소녀가', '소녀는' 등의 단어가 구분되어 나와있다.
+여기서 원 프로젝트에서 한글로 구현할 때 나타나는 문제점이 생긴다.
+
 한글의 문장 특성 중에 '조사'라는 품사는 항상 명사, 형용사, 부사뒤에 붙여서 사용된다는 특성이 있다.
 그래서 한글 자연어처리 과정에서, 조사는 필히 앞에 붙여진 단어와 분리하여 처리되어야 한다.
 하지만 단어 등장 빈도를 측정할 때, 조사를 포함한 하나의 어절로 구분하여 빈도를 측정하게 된다.
-그렇게 되면 예를 들어, '소프트웨어는', '소프트웨어가'라는 두 어절은 사실상 같은 '소프트웨어' 단어를 표현한 것인데
+그렇게 되면 예를 들어, '소녀는', '소녀가'라는 두 어절은 사실상 같은 '소프트웨어' 단어를 표현한 것인데
 따로 구분하여 처리된다.
 
 이는 확실히, 본 코드에 한글NLP 기능이 없기 때문에 나타난 현상이라 볼 수 있다.
@@ -53,7 +57,7 @@ def listToString(list1):
 한글 NLP기능을 활용하여 출력된 예시는 조사 등 불필요한 품사들은 사전에 삭제되고, 명사, 부사 위주의 단어로 재구성하였음을 알 수 있다.
 또한 조사 등을 삭제하게 되면서 겹치는 단어들이 추가되어 더 확실한 wordcloud를 구성하게 됨을 알 수 있다.
 
-[example2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/word_cloud_kor.png?raw=true
+[example2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/prev_example.png?raw=true
 [issue1]: https://github.com/amueller/word_cloud/issues/238
 [konlpy]: https://github.com/konlpy/konlpy
 [rain]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example.png?raw=true
