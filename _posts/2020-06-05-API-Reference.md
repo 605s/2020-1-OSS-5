@@ -202,10 +202,11 @@ RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 
 배경이 이미지보다 큰 경우 사용할 대체 색상 (r, g, b)입니다. 만약 None이면, 대신 ValueError를 발생시킵니다. 
 
 #### 메소드
-|||
-|:---|:---|
-|`Methods call`(self, word, font_size, font_path, …) | 고정 된 이미지를 사용하여 주어진 단어의 색상을 생성하십시오.|
-<br>
+
+`Methods call ( self, word, font_size, font_path, …) `
+
+고정 된 이미지를 사용하여 주어진 단어의 색상을 생성하십시오.
+
 
 `init(self, image, default_color=None)`
 
