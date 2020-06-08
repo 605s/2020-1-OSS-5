@@ -47,7 +47,10 @@ def listToString(list1):
 
 다음의 예시는 황순원의 소나기 text 파일을 한글 버전 기능 구현 코드에 인수로 받아서 실행하였을 때 나오는 결과물이다.
 
-![leaves][leaves]
+![leaves1][leaves1]
+![leaves2][leaves2]
+![leaves3][leaves3]
+
 
 첫번째 그림은 만들어진 wordcloud을 집어넣을 나뭇잎 그림 파일이다. 나뭇잎 안에 wordcloud에 집어넣는 형태로 만들어지는 것이다.
 두번째 그림은 소나기 text 파일을 인수로 받아 직접 실행한 결과로, 색깔변화를 주지 않았다.
@@ -60,4 +63,6 @@ def listToString(list1):
 [example2]: https://github.com/davidshyn1/davidshyn1.github.io/blob/master/assets/img/word_cloud%ED%95%9C%EA%B8%80%EB%B2%84%EC%A0%84.png
 [issue1]: https://github.com/amueller/word_cloud/issues/238
 [konlpy]: https://github.com/konlpy/konlpy
-[leaves]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EB%82%98%EB%AD%87%EC%9E%8E%EB%B9%84%EA%B5%90.jpg
+[leaves1]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0.png
+[leaves2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0_leaves.png
+[leaves3]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0_leaves_green.png
