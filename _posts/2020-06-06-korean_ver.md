@@ -47,7 +47,7 @@ def listToString(list1):
 
 다음의 예시는 황순원의 소나기 text 파일을 한글 버전 기능 구현 코드에 인수로 받아서 실행하였을 때 나오는 결과물이다.
 
-![rain](https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/%EC%86%8C%EB%82%98%EA%B8%B0.png =25x25)
+![rain](https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/%EC%86%8C%EB%82%98%EA%B8%B0.png){height:"25px" width:"25px"}
 ![leaves2][leaves2]
 ![leaves3][leaves3]
 
