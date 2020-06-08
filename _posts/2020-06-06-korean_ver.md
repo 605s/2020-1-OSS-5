@@ -53,9 +53,9 @@ def listToString(list1):
 한글 NLP기능을 활용하여 출력된 예시는 조사 등 불필요한 품사들은 사전에 삭제되고, 명사, 부사 위주의 단어로 재구성하였음을 알 수 있다.
 또한 조사 등을 삭제하게 되면서 겹치는 단어들이 추가되어 더 확실한 wordcloud를 구성하게 됨을 알 수 있다.
 
-[example2]: http://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/word_cloud_kor.png?raw=true
+[example2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/word_cloud_kor.png?raw=true
 [issue1]: https://github.com/amueller/word_cloud/issues/238
 [konlpy]: https://github.com/konlpy/konlpy
-[rain]: http://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example.png?raw=true
-[leaves2]: http://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves.png?raw=true
-[leaves3]: http://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves_green.png?raw=true
+[rain]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example.png?raw=true
+[leaves2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves.png?raw=true
+[leaves3]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves_green.png?raw=true
