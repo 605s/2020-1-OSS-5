@@ -47,7 +47,7 @@ def listToString(list1):
 
 다음의 예시는 황순원의 소나기 text 파일을 한글 버전 기능 구현 코드에 인수로 받아서 실행하였을 때 나오는 결과물이다.
 
-![rain][소나기]
+![rain](https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0.png = 250x250)
 ![leaves2][leaves2]
 ![leaves3][leaves3]
 
@@ -63,6 +63,5 @@ def listToString(list1):
 [example2]: https://github.com/davidshyn1/davidshyn1.github.io/blob/master/assets/img/word_cloud%ED%95%9C%EA%B8%80%EB%B2%84%EC%A0%84.png
 [issue1]: https://github.com/amueller/word_cloud/issues/238
 [konlpy]: https://github.com/konlpy/konlpy
-[소나기]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0.png
 [leaves2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0_leaves.png
 [leaves3]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EC%86%8C%EB%82%98%EA%B8%B0_leaves_green.png
