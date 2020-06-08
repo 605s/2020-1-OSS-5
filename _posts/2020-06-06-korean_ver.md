@@ -47,7 +47,7 @@ def listToString(list1):
 
 다음의 예시는 황순원의 소나기 text 파일을 한글 버전 기능 구현 코드에 인수로 받아서 실행하였을 때 나오는 결과물이다.
 
-![rain](https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/%EC%86%8C%EB%82%98%EA%B8%B0.png)
+![rain][rain]
 ![leaves2][leaves2]
 ![leaves3][leaves3]
 
@@ -60,8 +60,9 @@ def listToString(list1):
 한글 NLP기능을 활용하여 출력된 그림은 조사 등 불필요한 품사들은 사전에 삭제되고, 명사, 부사 위주의 단어로 재구성하였음을 알 수 있다.
 또한 조사 등을 삭제하게 되면서 겹치는 단어들이 추가되어 더 확실한 wordcloud를 구성하게 됨을 알 수 있다.
 
-[example2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/word_cloud%ED%95%9C%EA%B8%80%EB%B2%84%EC%A0%84.png
+[example2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/word_cloud_kor.png
 [issue1]: https://github.com/amueller/word_cloud/issues/238
 [konlpy]: https://github.com/konlpy/konlpy
-[leaves2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/%EC%86%8C%EB%82%98%EA%B8%B0_leaves.png
-[leaves3]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/%EC%86%8C%EB%82%98%EA%B8%B0_leaves_green.png
+[rain]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example.png
+[leaves2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves.png
+[leaves3]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/kor_example_leaves_green.png
