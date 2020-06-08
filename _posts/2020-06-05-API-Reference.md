@@ -7,9 +7,6 @@ tags: [Documentation]
 >word_cloud GitHub Page의 [API Reference][API] 항목을 한국어로 번역 및 보완한 문서입니다.
 <hr>
 
-[toc]
-
-
 ## API Reference
 모든 기능은 WordCloud 클래스에 캡슐화되어 있습니다.
 
