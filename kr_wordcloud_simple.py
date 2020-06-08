@@ -46,7 +46,7 @@ def get_string(path):
 path = d + '/word_cloud/kor_text/2020.05.28.기사1.txt' #path of korean text
 
 tags = get_string(path)  # tags : string of list_nouns
-wc = WordCloud(font_path=font_path, background_color="white",collocations=False,
+wc = WordCloud(font_path=font_path, background_color="white",
                max_font_size=100, random_state=42, width=1000, height=860, margin=2) #collocations=false
 
 #display the generated image
