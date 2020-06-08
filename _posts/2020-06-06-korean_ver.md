@@ -58,6 +58,6 @@ def listToString(list1):
 또한 조사 등을 삭제하게 되면서 겹치는 단어들이 추가되어 더 확실한 wordcloud를 구성하게 됨을 알 수 있다.
 
 [example2]: https://github.com/davidshyn1/davidshyn1.github.io/blob/master/assets/img/word_cloud%ED%95%9C%EA%B8%80%EB%B2%84%EC%A0%84.png
-[issue2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/issues/2
+[issue1]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/issues/2
 [konlpy]: https://github.com/konlpy/konlpy
 [leaves]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EB%82%98%EB%AD%87%EC%9E%8E%EB%B9%84%EA%B5%90.jpg
