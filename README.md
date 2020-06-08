@@ -61,18 +61,22 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 해당 패키지도 역시나 오픈소스프로젝트로 활발히 진행 중인 패키지나, 상당 부분 한글 NLP 기능을 구현할 만큼 유용한 패키지라고 판단하여,
 해당 패키지를 활용하여 wordcloud 코드를 구현하기로 결정하였다.
 
-### 정적페이지에 문서화 (활용 예제, 한글 예제 추가)
+### wordcloud 한글 문서화
 
+원 프로젝트는 영어를 기본 언어로 wordcloud가 작동되고, 이에 대한 구체적인 방법에 대한 설명도 영어로 소개되어있기 때문에,
+한국인 사용자들에게 더욱 쉽게 해당 프로젝트를 이해하고 실행할 수 있도록 해당 프로젝트의 post와 블로그를 한글로 문서화하기로 결정하였다.
+한글로 문서화 할 post는 원 프로젝트의 정적페이지에서 프로젝트 진행 사항, 설치 방법 등과 원 프로젝트의 블로그 일부가 될 것이다.
 
 
 ### 새로운 ISSUE 검색
 
 한글 구현 프로젝트, 한글예제 활용하여 정적페이지 문서화 프로젝트 등 본 팀의 주요 프로젝트 뿐만 아니라, 원 프로젝트에서 고려하고 있는 이슈들을 검색하여, 해결할 수 있다고 판단되는 이슈들을 팀원들과 토론을 통해 결정하고 해결하는 활동 또한 진행하였다.
 
-현재 [plural_issue][issue2]에 대해 활발히 토론이 진행 중이다.
+#### [plural_issue][issue2]
 해당 issue는 plural issue로 해당 wordcloud 코드는 복수로 표현된 단어들을 자동으로 단수로 변환하여 tokenize하는 기능이 설정되어 있는데,
 's'로 끝나는 단어와 구분하지 못하여, 단어에서 's'가 삭제되는 버그가 발생된다는 문제의 내용이다.
 예를 들어, 'virus'라는 영어단어는 's'로 끝나는데, 단수 자동변환 기능을 설정하면, 'viru'로 취급한다는 문제가 발생된다는 것이다.
+이를 해결 하기 위해 's'를 제거한 단어가 실제로 존재하는 단어인지 확인하여, 없으면 단수자동변환 작업을 중지할 수 있도록 수정하는 코드를 구현하고자 한다.
 
 ## 5. 프로젝트 진행과정
 ### 프로젝트 선정 과정
@@ -99,6 +103,11 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 * README.md에 word_cloud 설치 방법 추가 (5/28)<br>
 * README.md에 프로젝트 기여 방법 구체화 (6/6)<br>
 * 정적페이지 게시물 분류의 필요성으로 Jekyll Theme 변경 (6/7)
+### #4 Plural Issue 해결
+* 원 프로젝트 검색 후 [Issue][issue2] 등록 (5/22)<br>
+* Issue 내 활발한 토론 진행 (~5/30)<br>
+* Plural Issue bug 수정 코드 구현[(click)][pr1] (~6/7)<br>
+* Code Review 및 업로드 [(click)][pr2](6/7)
 
 [example]: https://github.com/amueller/word_cloud/blob/master/examples/alice.png
 [issue1]: https://github.com/amueller/word_cloud/issues/238
@@ -112,3 +121,5 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 [doc2]: https://20-1-skku-oss.github.io/2020-1-OSS-5/installation-and-command-line-interface
 [doc3]: https://20-1-skku-oss.github.io/2020-1-OSS-5/Gallery-of-Examples/
 [doc4]: https://20-1-skku-oss.github.io/2020-1-OSS-5/blog-post-2/
+[pr1]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/pull/50
+[pr2]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/pull/52
