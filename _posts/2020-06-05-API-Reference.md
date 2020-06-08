@@ -12,11 +12,11 @@ tags: [Documentation]
 
 |||
 |:---|:---|
-|[`WordCloud`](#wordcloudwordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
-|[`ImageColorGenerator`](#wordcloudImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
-|[`random_color_func`](#wordcloudrandom_color_func)([word, font_size, …])|임의의 색조 색상 생성|
+|[**`WordCloud`**](#wordcloudwordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
+|[**`ImageColorGenerator`**](#wordcloudImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
+|[**`random_color_func`**](#wordcloudrandom_color_func)([word, font_size, …])|임의의 색조 색상 생성|
 |`colormap_color_func`||
-|[`get_single_color_func`](#wordcloudget_single_color_func)(color)|단일 색조와 채도를 반환하는 color function을 생성|
+|[**`get_single_color_func`**](#wordcloudget_single_color_func)(color)|단일 색조와 채도를 반환하는 color function을 생성|
 <hr>
 
 ### wordcloud.WordCloud
