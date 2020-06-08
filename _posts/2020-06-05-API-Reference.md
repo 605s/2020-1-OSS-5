@@ -181,8 +181,33 @@ min_word_length=0, collocation_threshold=30)
 ### wordcloud.ImageColorGenerator
 
 
+```
+class wordcloud.ImageColorGenerator(image, default_color=None)
+```
 
+컬러 이미지를 기반으로 한 컬러 생성기
 
+RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 둘러싸는 사각형의 평균 색상을 사용하여 단어의 색상이 지정됩니다.
 
+생성 후, 객체는 color_func로 word cloud생성자 또는 색상변경method에 전달할 수 있는 호출 가능 기능을 합니다.
+
+`Parameters` 
+
+`imagend-array, shape (height, width, 3)`
+
+단어 색상을 생성하는 데 사용되는 이미지입니다. 알파 채널은 무시됩니다. 이는 배경 크기와 같아야 합니다.
+
+`default_colortuple or None, default=None`
+
+배경이 이미지보다 큰 경우 사용할 대체 색상 (r, g, b)입니다. 만약 None이면, 대신 ValueError를 발생시킵니다. 
+
+#### 메소드
+|||
+|:---|:---|
+|`Methods call`(self, word, font_size, font_path, …) | 고정 된 이미지를 사용하여 주어진 단어의 색상을 생성하십시오.|
+
+`init(self, image, default_color=None)`
+
+자기를 초기화합니다. 정확한 특징은 help(type(self))를 참조하십시오.
 
 [API]: http://amueller.github.io/word_cloud/references.html
