@@ -15,16 +15,16 @@ tags: [Documentation]
 
 |||
 |:---|:---|
-|[`WordCloud`](#wordcloud.wordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
-|[`ImageColorGenerator`](#wordcloud.ImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
-|[`random_color_func`](#wordcloud.random_color_func)([word, font_size, …])|임의의 색조 색상 생성|
+|[`WordCloud`](#wordcloudwordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
+|[`ImageColorGenerator`](#wordcloudImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
+|[`random_color_func`](#wordcloudrandom_color_func)([word, font_size, …])|임의의 색조 색상 생성|
 |`colormap_color_func`||
-|[`get_single_color_func`](#wordcloud.get_single_color_func)(color)|단일 색조와 채도를 반환하는 color function을 생성|
+|[`get_single_color_func`](#wordcloudget_single_color_func)(color)|단일 색조와 채도를 반환하는 color function을 생성|
 <hr>
 
 ### wordcloud.WordCloud
 ```
-classwordcloud.WordCloud(font_path=None, width=400, height=200, 
+class wordcloud.WordCloud(font_path=None, width=400, height=200, 
 margin=2, ranks_only=None, prefer_horizontal=0.9, mask=None, scale=1, 
 color_func=None, max_words=200, min_font_size=4, stopwords=None, 
 random_state=None, background_color='black', max_font_size=None, font_step=1, 
@@ -179,5 +179,13 @@ normalize_plurals=True, contour_width=0, contour_color='black', repeat=False, in
 min_word_length=0, collocation_threshold=30)
 ```
 자기를 초기화합니다. 정확한 서명은 help(type(self))를 참조하십시오.
+<hr>
+
+### wordcloud.ImageColorGenerator
+
+
+
+
+
 
 [API]: http://amueller.github.io/word_cloud/references.html
