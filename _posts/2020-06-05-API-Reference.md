@@ -228,6 +228,20 @@ random_color_func(word=None, font_size=None, position=None, orientation=None, fo
 `random_staterandom.Random object or None, (default=None)`
 
 임의의 개체가 제공되면 임의의 숫자를 생성하는 데 사용됩니다.
+<hr>
 
+### wordcloud.get_single_color_func
+
+```
+wordcloud.get_single_color_func(color)
+```
+다른 값 (HSV)으로 단일 색조와 채도를 반환하는 색상 함수를 만듭니다. 
+
+허용되는 값은 PIL / Pillow에서 사용할 수있는 색상 문자열입니다.
+
+```
+>>> color_func1 = get_single_color_func('deepskyblue') 
+>>> color_func2 = get_single_color_func('#00b4d2')
+```
 
 [API]: http://amueller.github.io/word_cloud/references.html
