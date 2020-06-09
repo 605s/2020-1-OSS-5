@@ -10,8 +10,8 @@ tags: [Documentation]
 ## API Reference
 모든 기능은 WordCloud 클래스에 캡슐화되어 있습니다.
 
-|||
-|:---|:---|
+|기능명|설명|
+|---|---|
 |[**`WordCloud`**](#wordcloudwordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
 |[**`ImageColorGenerator`**](#wordcloudImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
 |[**`random_color_func`**](#wordcloudrandom_color_func)([word, font_size, …])|임의의 색조 색상 생성|
@@ -20,6 +20,8 @@ tags: [Documentation]
 <hr>
 
 ### wordcloud.WordCloud
+
+
 ```
 class wordcloud.WordCloud(font_path=None, width=400, height=200, 
 margin=2, ranks_only=None, prefer_horizontal=0.9, mask=None, scale=1, 
@@ -147,15 +149,23 @@ collocation_threshold=30)
 
 알고리즘은 `max_font_size`스케일링 휴리스틱에 따라 실제 빈도보다 단어 순위에 더 많은 가중치를 부여 할 수 있습니다 .
 
-`Attributes:` ` ``words_`` : dict of string to float `<br>
-                빈도와 관련된 단어 토큰.<br>
-              ` ``layout_`` : list of tuples (string, int, (int, int), int, color)) `<br>  
-                적합한 word cloud를 인코딩합니다. 각 단어마다 문자열, 글꼴 크기, 위치, 방향 및 색상을 인코딩합니다.<br>
+
+`Attributes:`
+
+` ``words_`` : dict of string to float `
+
+빈도와 관련된 단어 토큰.
+
+                
+` ``layout_`` : list of tuples (string, int, (int, int), int, color)) `
+
+적합한 word cloud를 인코딩합니다. 각 단어마다 문자열, 글꼴 크기, 위치, 방향 및 색상을 인코딩합니다.
+<br>
 
 #### 메소드
 
-|||
-|:---|:---|
+|메소드명|설명|
+|---|---|
 |`fit_words`(self, frequencies)|단어와 빈도로 word_cloud를 만듭니다.|
 |`generate`(self, text)|텍스트에서 word_cloud를 생성합니다.|
 |`generate_from_frequencies`(self, frequencies)|단어와 빈도로 word_cloud를 만듭니다.|
@@ -175,7 +185,7 @@ mode='RGB', relative_scaling='auto', regexp=None, collocations=True, colormap=No
 normalize_plurals=True, contour_width=0, contour_color='black', repeat=False, include_numbers=False, 
 min_word_length=0, collocation_threshold=30)
 ```
-자기를 초기화합니다. 정확한 서명은 help(type(self))를 참조하십시오.
+자기를 초기화합니다. 정확한 특징은 help(type(self))를 참조하십시오.
 <hr>
 
 ### wordcloud.ImageColorGenerator
@@ -203,12 +213,12 @@ RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 
 
 #### 메소드
 
-`Methods call ( self, word, font_size, font_path, …) `
+`__call__(self, word, font_size, font_path, …)`
 
 고정 된 이미지를 사용하여 주어진 단어의 색상을 생성하십시오.
 
 
-`init(self, image, default_color=None)`
+`__init__(self, image, default_color=None)`
 
 자기를 초기화합니다. 정확한 특징은 help(type(self))를 참조하십시오.
 <hr>
@@ -217,7 +227,7 @@ RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 
 
 
 ```
-random_color_func(word=None, font_size=None, position=None, orientation=None, font_path=None, random_state=None)
+wordcloud.random_color_func(word=None, font_size=None, position=None, orientation=None, font_path=None, random_state=None)
 ```
 임의의 색조 색상 생성.
 
@@ -233,6 +243,7 @@ random_color_func(word=None, font_size=None, position=None, orientation=None, fo
 <hr>
 
 ### wordcloud.get_single_color_func
+
 
 ```
 wordcloud.get_single_color_func(color)
