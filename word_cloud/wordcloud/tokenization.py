@@ -3,7 +3,7 @@ from itertools import tee
 from operator import itemgetter
 from collections import defaultdict
 from math import log
-import enchant
+from enchant import Dict
 
 
 def l(k, n, x):  # noqa: E741, E743
@@ -101,7 +101,7 @@ def process_tokens(words, normalize_plurals=True):
     # d is a dict of dicts.
     # Keys of d are word.lower(). Values are dicts
     # counting frequency of each capitalization
-    eng_d = enchant.Dict("en_US")
+    eng_d = Dict("en_US")
     d = defaultdict(dict)
     for word in words:
         word_lower = word.lower()
