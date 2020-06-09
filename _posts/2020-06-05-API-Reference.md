@@ -206,8 +206,9 @@ class wordcloud.ImageColorGenerator(image, default_color=None)
 RGB 이미지를 기반으로 색상을 생성합니다. 색상 이미지에서 둘러싸는 사각형의 평균 색상을 사용하여 단어의 색상이 지정됩니다.
 
 생성 후, 객체는 color_func로 word cloud생성자 또는 색상변경method에 전달할 수 있는 호출 가능 기능을 합니다.
+<br>
 
-`Parameters` 
+#### 매개변수
 
 `imagend-array, shape (height, width, 3)`
 
@@ -238,8 +239,9 @@ wordcloud.random_color_func(word=None, font_size=None, position=None, orientatio
 임의의 색조 색상 생성.
 
 기본 채색 방법. 값이 80 %이고 lumination이 50 % 인 임의의 색조를 선택합니다.
+<br>
 
-`Parameters` 
+#### 매개변수
 
 `word, font_size, position, orientation : ignored.`
 
