@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "free-python-games"
+tags: [OSS Project]
 ---
 
 >Free Python Games is an Apache2 licensed collection of free Python games intended for education and fun. The games are written in simple Python code and designed for experimentation and changes. Simplified versions of several classic arcade games are included. [_(free-python-games README.rst)_][README.rst]<br>
