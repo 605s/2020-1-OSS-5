@@ -122,8 +122,8 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 [word_cloud]: https://github.com/amueller/word_cloud
 [free-python-games]: https://github.com/grantjenks/free-python-games
 [leaves]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EB%82%98%EB%AD%87%EC%9E%8E%EB%B9%84%EA%B5%90.jpg
-[virus_b]: "https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github Page/images/virus_before.png"
-[virus]: "https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github Page/images/virus.png"
+[virus_b]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github_Page/images/virus_before.png
+[virus]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github_Page/images/virus.png
 [doc1]: https://20-1-skku-oss.github.io/2020-1-OSS-5/blog-post/
 [doc2]: https://20-1-skku-oss.github.io/2020-1-OSS-5/installation-and-command-line-interface
 [doc3]: https://20-1-skku-oss.github.io/2020-1-OSS-5/Gallery-of-Examples/
