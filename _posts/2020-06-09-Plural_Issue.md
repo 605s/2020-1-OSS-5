@@ -15,7 +15,7 @@ tags: [WordCloud Plural Issue]
 원 프로젝트는 plural(복수) 형태인 단어를 모두 singular(단수) 형태로 normalise하는 것으로 normalise_plurals=True로 설정하여 진행하는데, 
 그렇게 하는 경우 ‘s’로 끝나는 ‘virus’같은 단어가 복수형태와 구분이 되지 않아서 ‘viru’로 처리되는 등 의도와 다르게 ‘s’가 삭제되는 버그가 발생하는 것을 확인할 수 있었다.
 
->![virus_b][virus_b]
+>![virus_b][virus_b]<br>
 > virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시
 
 위 사진에서 볼 수 있듯이 모든 virus 단어가 viru로 묶여버리는 현상이 발생한다.
