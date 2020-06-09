@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[한글 문서화] API Reference"
-tags: [Documentation]
+tags: [WordCloud Docs]
 ---
 
 >word_cloud GitHub Page의 [API Reference][API] 항목을 한국어로 번역 및 보완한 문서입니다.
@@ -146,23 +146,15 @@ collocation_threshold=30)
   <https://nlp.stanford.edu/fsnlp/promo/colloc.pdf#page=22>
 <br>
 
-#### Notes
-
-캔버스가 클수록 코드 속도가 크게 느려집니다. 큰 word cloud가 필요한 경우 캔버스 크기를 낮추고 scale 매개 변수를 설정하십시오.
-
-알고리즘은 `max_font_size`스케일링 휴리스틱에 따라 실제 빈도보다 단어 순위에 더 많은 가중치를 부여 할 수 있습니다 .
-
-
-`Attributes:`
-
-` ``words_`` : dict of string to float `
-
-빈도와 관련된 단어 토큰.
-
-                
-` ``layout_`` : list of tuples (string, int, (int, int), int, color)) `
-
-적합한 word cloud를 인코딩합니다. 각 단어마다 문자열, 글꼴 크기, 위치, 방향 및 색상을 인코딩합니다.
+>ℹ<span style="color:blue">**Notes**</span><br>
+>캔버스가 클수록 코드 속도가 크게 느려집니다. 큰 word cloud가 필요한 경우 캔버스 크기를 낮추고 scale 매개 변수를 설정하십시오.<br>
+>알고리즘은 `max_font_size`스케일링 휴리스틱에 따라 실제 빈도보다 단어 순위에 더 많은 가중치를 부여 할 수 있습니다 .<br>
+><br>
+>`Attributes:`<br>
+>` ``words_`` : dict of string to float `<br>
+>빈도와 관련된 단어 토큰.<br>
+>` ``layout_`` : list of tuples (string, int, (int, int), int, color)) `<br>
+>적합한 word cloud를 인코딩합니다. 각 단어마다 문자열, 글꼴 크기, 위치, 방향 및 색상을 인코딩합니다.
 <br>
 
 #### 메소드

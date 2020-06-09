@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "word_cloud"
+tags: [OSS Project]
 ---
 
 >A little word cloud generator in Python. Read more about it on the [blog post][blog_post] or the [website][website].<br>
