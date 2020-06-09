@@ -14,6 +14,7 @@ tags: [WordCloud Docs]
 
 핵심 개발자는 생성을 트리거하고 wordcloud의 X.Y.Z 릴리스를 [PyPI][PyPI]에 업로드하기 위해 이 단계들을 밟아야 합니다.
 <hr>
+<br>
 
 ### 설명서 규칙
 
@@ -29,11 +30,12 @@ Hello
 
 `echo "Hello"`가 터미널에서 복사 및 평가되야 함을 의미합니다.
 <hr>
+<br>
 
 ### 환경 설정
 
 
-1．[먼저 PyPI에 계정을 등록하십시오][register].
+1．먼저 [PyPI에 계정을 등록하십시오][register].
 <br>
 
 2．아직 사례가 아닌 경우, `Package Index Maintainer`으로 추가되도록 요청하십시오.
@@ -59,6 +61,7 @@ password=<your-password>
 
 PyPI 계정이 `<your-username>`와 `<your-password>`입니다.
 <hr>
+<br>
 
 ### PyPI : 단계별 설명
 
