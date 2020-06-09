@@ -108,6 +108,11 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 * Issue 내 활발한 토론 진행 (~5/30)<br>
 * Plural Issue bug 수정 코드 구현[(click)][pr1] (~6/7)<br>
 * Code Review 및 업로드 [(click)][pr2](6/7)
+> virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시<br>
+> ![virus_b][virus_b]
+> Plural Issue 해결 전 이미지. viru 단어 하나로 인해 모든 virus 단어가 viru로 묶여버리는 현상 발생
+> ![virus][virus]
+> Plural Issue 해결 후 이미지. viru같은 잘못된 단어는 처리하지 않도록 작업하였다.
 
 [example]: https://github.com/amueller/word_cloud/blob/master/examples/alice.png
 [issue1]: https://github.com/amueller/word_cloud/issues/238
@@ -117,6 +122,8 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 [word_cloud]: https://github.com/amueller/word_cloud
 [free-python-games]: https://github.com/grantjenks/free-python-games
 [leaves]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/word_cloud/kor_text/image/%EB%82%98%EB%AD%87%EC%9E%8E%EB%B9%84%EA%B5%90.jpg
+[virus_b]: "https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github Page/images/virus_before.png"
+[virus]: "https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/master/Github Page/images/virus.png"
 [doc1]: https://20-1-skku-oss.github.io/2020-1-OSS-5/blog-post/
 [doc2]: https://20-1-skku-oss.github.io/2020-1-OSS-5/installation-and-command-line-interface
 [doc3]: https://20-1-skku-oss.github.io/2020-1-OSS-5/Gallery-of-Examples/
