@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[한글 기능 구현] 한글 기능 구현 과정"
-tags: [한글 기능 구현]
+tags: [WordCloud Korean Ver]
 ---
 > 한글 기능 구현에 대한 설명 내용을 포함한 문서입니다.
 <hr>
