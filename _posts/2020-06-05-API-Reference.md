@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[한글 문서화] API Reference"
-tags: [Documentation]
+tags: [WordCloud Docs]
 ---
 
 >word_cloud GitHub Page의 [API Reference][API] 항목을 한국어로 번역 및 보완한 문서입니다.
