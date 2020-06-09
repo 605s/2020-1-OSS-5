@@ -119,7 +119,8 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 * Issue 내 활발한 토론 진행 (~5/30)<br>
 * Plural Issue bug 수정 코드 구현[(click)][pr1] (~6/7)<br>
 * Code Review 및 업로드 [(click)][pr2](6/7)
-> virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시<br>
+> **virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시**<br>
+> <br>
 > ![virus_b][virus_b]<br>
 > Plural Issue 해결 전 이미지. viru 단어 하나로 인해 모든 virus 단어가 viru로 묶여버리는 현상 발생<br>
 > ![virus][virus]<br>
