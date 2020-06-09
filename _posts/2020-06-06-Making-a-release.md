@@ -83,7 +83,7 @@ release=X.Y.Z
 ```
 <br>
 
-><span style="color:red">**Warning**</span><br>
+>⚠<span style="color:red">**Warning**</span><br>
 >패키지가 PyPI에 업로드되도록 하려면 태그가 이 정규식과 일치해야합니다.<br>
 >`^[0-9]+(\.[0-9]+)*(\.post[0-9]+)?$`
 <br>
@@ -110,7 +110,7 @@ $ git tag --sign -m "WordCloud ${release}" ${release} master
 ```
 <br>
 
-><span style="color:blue">**Note**</span><br>
+>ℹ<span style="color:blue">**Note**</span><br>
 >태그에 서명하려면 GPG 키를 사용하는 것이 좋습니다.
 <br>
 
@@ -121,7 +121,7 @@ $ git push origin ${release}
 ```
 <br>
 
-><span style="color:blue">**Note**</span><br>
+>ℹ<span style="color:blue">**Note**</span><br>
 >그러면 각 CI 서비스에서 빌드가 시작되고 PyPI에서 휠 및 소스 배포가 자동으로 업로드됩니다.
 <br>
 
@@ -140,7 +140,7 @@ $ mkvirtualenv wordcloud-${release}-install-test && \
 ```
 <br>
 
-><span style="color:blue">**Note**</span><br>
+>ℹ<span style="color:blue">**Note**</span><br>
 >`mkvirtualenv`를 사용할 수 없으면 [virtualenvwrapper][virtualenvwrapper]가 설치되어 있지 않다는 의미입니다.<br>
 >이 경우 이를 설치하거나 [virtualenv][virtualenv] 또는 [venv][venv]를 직접 사용할 수 있습니다.
 <br>
