@@ -1,20 +1,31 @@
 # 2020-1-OSS-5
-Homepage : https://20-1-skku-oss.github.io/2020-1-OSS-5/
-## 1. 팀원 소개
+
+ 0. [홈페이지](#homepage)
+ 1. [팀원 소개](#members)
+ 2. [프로젝트 소개](#introduction)
+ 3. [설치 방법](#install)
+ 4. [프로젝트 기여 방법](#Contribution)
+ 5. [프로젝트 진행과정](#Status)
+
+## <div id = "homepage">홈페이지</div>
+
+https://20-1-skku-oss.github.io/2020-1-OSS-5/
+
+## <div id = "members">1. 팀원 소개</div>
 - 김희성 heesunkim010 (팀장)
 - 신성국 davidshyn1
 - 안정복 jb0307
 - 이하은 HACore
 - 유광호 605s
 
-## 2. 프로젝트 소개
+## <div id = "introduction">2. 프로젝트 소개</div>
 ### word_cloud (https://github.com/amueller/word_cloud)
 
 - 텍스트 내의 단어들을 중요도(문서 내 등장횟수)를 기준으로 구분하여 특정한 이미지 영역(mask) 내부에 시각화하는 프로젝트
 
 ![example][example]
 
-## 3. 설치 방법
+## <div id = "install">3. 설치 방법</div>
 
 pip 사용 시, 다음 코드로 진행하시기 바랍니다.:
 
@@ -33,7 +44,7 @@ wordcloud 수행 후 해당 이미지를 저장하기 위해서는, `matplotlib`
 이용자의 파이썬 버전에 'wheel'이 없는 경우, 위의 해키지를 설치하기 위해서는 C 컴파일러가 셋업되어 있어야 합니다.
 컴파일러를 설치하기 전, 파이썬 환경 및 개발 환경 등에 대한 내용으로 원 프로젝트에 이슈 등록하시길 바랍니다. 
 
-## 4. 프로젝트 기여 방법
+## <div id = "Contribution">4. 프로젝트 기여 방법</div>
 ### 한글로 구현하는 기능 추가
 
 Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등장 횟수에 따라 글자 크기를 조정하여 word cloud를 생성하도록 하는 프로젝트이기에,
@@ -78,7 +89,7 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 예를 들어, 'virus'라는 영어단어는 's'로 끝나는데, 단수 자동변환 기능을 설정하면, 'viru'로 취급한다는 문제가 발생된다는 것이다.
 이를 해결 하기 위해 's'를 제거한 단어가 실제로 존재하는 단어인지 확인하여, 없으면 단수자동변환 작업을 중지할 수 있도록 수정하는 코드를 구현하고자 한다.
 
-## 5. 프로젝트 진행과정
+## <div id = "Status">5. 프로젝트 진행과정</div>
 ### 프로젝트 선정 과정
   * 회의를 통해 개인별로 조사한 프로젝트를 발표하고, 팀원들의 의견을 종합하여 프로젝트 선정 (~5/13)
   * 조사한 프로젝트 중 [word_cloud][word_cloud]와 [free-python-games][free-python-games]로 의견을 종합 (5/13)
@@ -109,9 +120,9 @@ Word Cloud 프로젝트는 긴 글(문장)을 tokenize 수행하여, 단어 등�
 * Plural Issue bug 수정 코드 구현[(click)][pr1] (~6/7)<br>
 * Code Review 및 업로드 [(click)][pr2](6/7)
 > virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시<br>
-> ![virus_b][virus_b]
-> Plural Issue 해결 전 이미지. viru 단어 하나로 인해 모든 virus 단어가 viru로 묶여버리는 현상 발생
-> ![virus][virus]
+> ![virus_b][virus_b]<br>
+> Plural Issue 해결 전 이미지. viru 단어 하나로 인해 모든 virus 단어가 viru로 묶여버리는 현상 발생<br>
+> ![virus][virus]<br>
 > Plural Issue 해결 후 이미지. viru같은 잘못된 단어는 처리하지 않도록 작업하였다.
 
 [example]: https://github.com/amueller/word_cloud/blob/master/examples/alice.png
