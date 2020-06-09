@@ -10,13 +10,16 @@ tags: [Documentation]
 ## API Reference
 모든 기능은 WordCloud 클래스에 캡슐화되어 있습니다.
 
-|기능명|설명|
+
+|기능명||
 |---|---|
 |[**`WordCloud`**](#wordcloudwordcloud)([font_path, width, height, …])|생성 및 그리기를 위한 Word Cloud 객체|
 |[**`ImageColorGenerator`**](#wordcloudImageColorGenerator)(image[, default_color])|컬러 이미지를 기반으로 한 컬러 생성기|
 |[**`random_color_func`**](#wordcloudrandom_color_func)([word, font_size, …])|임의의 색조 색상 생성|
 |`colormap_color_func`||
 |[**`get_single_color_func`**](#wordcloudget_single_color_func)(color)|단일 색조와 채도를 반환하는 color function을 생성|
+
+
 <hr>
 
 ### wordcloud.WordCloud
@@ -164,7 +167,8 @@ collocation_threshold=30)
 
 #### 메소드
 
-|메소드명|설명|
+
+|메소드명||
 |---|---|
 |`fit_words`(self, frequencies)|단어와 빈도로 word_cloud를 만듭니다.|
 |`generate`(self, text)|텍스트에서 word_cloud를 생성합니다.|
@@ -175,6 +179,8 @@ collocation_threshold=30)
 |`to_array`(self)|numpy 배열로 변환합니다.|
 |`to_file`(self, filename)|이미지 파일로 내보냅니다.|
 |`to_svg`(self[, embed_font, …])|SVG로 내보냅니다.|
+
+
 <br>
 
 ```
