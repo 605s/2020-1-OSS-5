@@ -309,29 +309,29 @@ ImageColorGenerator에서 구현된 이미지 기반 색상 지정 방법을 사
     from os import path
     from wordcloud import WordCloud
 
-    # get data directory (using getcwd() is needed to support running example in generated IPython notebook)
+    # get data directory (getcwd()를 사용하여 생성된 IPython 노트북의 실행 예제를 지원해야 함)
     d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
-    # It is important to use io.open to correctly load the file as UTF-8
+    # 파일을 UTF-8로 올바르게 로드하려면 io.open을 사용하는 것이 중요하다.
     text = io.open(path.join(d, 'happy-emoji.txt')).read()
 
-    # the regex used to detect words is a combination of normal words, ascii art, and emojis
+    # 단어 찾기에 사용되는 regex는 정상어, ascii art, emojis의 조합이다.
     # 2+ consecutive letters (also include apostrophes), e.x It's
     normal_word = r"(?:\w[\w']+)"
     # 2+ consecutive punctuations, e.x. :)
     ascii_art = r"(?:[{punctuation}][{punctuation}]+)".format(punctuation=string.punctuation)
-    # a single character that is not alpha_numeric or other ascii printable
+    # alpha_datable 또는 기타 아스키 print가 불가능한 단일 문자
     emoji = r"(?:[^\s])(?<![\w{ascii_printable}])".format(ascii_printable=string.printable)
     regexp = r"{normal_word}|{ascii_art}|{emoji}".format(normal_word=normal_word, ascii_art=ascii_art,
                                                          emoji=emoji)
 
-    # Generate a word cloud image
+    # World cloud 이미지 생성
     # The Symbola font includes most emoji
     font_path = path.join(d, 'fonts', 'Symbola', 'Symbola.ttf')
     wc = WordCloud(font_path=font_path, regexp=regexp).generate(text)
 
-    # Display the generated image:
-    # the matplotlib way:
+    # 생성된 이미지 표시:
+    # matplotlib 방식:
     import matplotlib.pyplot as plt
     plt.imshow(wc)
     plt.axis("off")
