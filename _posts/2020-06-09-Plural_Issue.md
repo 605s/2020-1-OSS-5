@@ -8,14 +8,14 @@ tags: [WordCloud Plural Issue]
 
 우리 팀은 word cloud 프로젝트에서 흥미로운 이슈들이 무엇이 존재하는지 탐색했고, 그 중 우리가 해결할 수 있을 것같은 이슈를 발견하였다.
 
-![Issue_image][Issue_image]
+![Plural_Issue](https://user-images.githubusercontent.com/58473522/84213060-9feee180-aafa-11ea-85e4-7e696cbc3343.PNG)
 
-[plural issue][Plural_Issue]는 영어에서 복수형태의 단어를 모두 단수형태로 일반화하는 기능에 문제가 있다는 이슈이다.
+[plural issue][Plural_Issue_page]는 영어에서 복수형태의 단어를 모두 단수형태로 일반화하는 기능에 문제가 있다는 이슈이다.
 
 원 프로젝트는 plural(복수) 형태인 단어를 모두 singular(단수) 형태로 normalise하는 것으로 normalise_plurals=True로 설정하여 진행하는데, 
 그렇게 하는 경우 ‘s’로 끝나는 ‘virus’같은 단어가 복수형태와 구분이 되지 않아서 ‘viru’로 처리되는 등 의도와 다르게 ‘s’가 삭제되는 버그가 발생하는 것을 확인할 수 있었다.
 
->![virus_b][virus_b]<br>
+> ![virus_before](https://user-images.githubusercontent.com/58473522/84213172-e8a69a80-aafa-11ea-8d2f-dd81f0adf3ec.png)<br>
 > virus에 관한 사전의 텍스트를 이용한 바이러스 이미지의 wordcloud 구현 예시
 
 위 사진에서 볼 수 있듯이 모든 virus 단어가 viru로 묶여버리는 현상이 발생한다.
@@ -55,13 +55,11 @@ if key.endswith('s') and not key.endswith("ss"):
 이렇게 수정된 `tokenization` 모듈을 사용하는 word cloud 패키지는 이제 plural issue가 발생하지 않으며, 잘못된 단어가 처리되지 않으므로 더욱 
 정확한 단어의 빈도수를 가지고 결과물을 만들어 내게 되었다.
 
-> ![virus][virus]<br>
+> ![virus](https://user-images.githubusercontent.com/58473522/84213216-0a078680-aafb-11ea-9147-0ad94d884155.png)<br>
 > Plural Issue 해결 후 이미지. viru같은 잘못된 단어는 처리하지 않도록 작업하였다.
 
 
-[Issue_image]: ../images/Plural_Issue.PNG
-[Plural_Issue]: https://github.com/amueller/word_cloud/issues/542
+
+[Plural_Issue_page]: https://github.com/amueller/word_cloud/issues/542
 [issue]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/issues/2
-[virus_b]: ../images/virus_before.png
-[virus]: ../images/virus.png
 [pyenchant]: https://github.com/pyenchant/pyenchant
