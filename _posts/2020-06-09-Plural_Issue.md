@@ -59,9 +59,9 @@ if key.endswith('s') and not key.endswith("ss"):
 > Plural Issue 해결 후 이미지. viru같은 잘못된 단어는 처리하지 않도록 작업하였다.
 
 
-[Issue_image]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/blob/gh-pages/images/Plural_Issue.PNG
+[Issue_image]: /images/Plural_Issue.PNG
 [Plural_Issue]: https://github.com/amueller/word_cloud/issues/542
 [issue]: https://github.com/20-1-SKKU-OSS/2020-1-OSS-5/issues/2
-[virus_b]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/gh-pages/images/virus_before.png
-[virus]: https://github.com/20-1-skku-oss/2020-1-OSS-5/blob/gh-pages/images/virus.png
+[virus_b]: /images/virus_before.png
+[virus]: /images/virus.png
 [pyenchant]: https://github.com/pyenchant/pyenchant
